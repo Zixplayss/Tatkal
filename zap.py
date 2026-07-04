@@ -67,13 +67,13 @@ def convert_to_ist(utc_dt: datetime) -> datetime:
     return utc_dt.astimezone(IST)
 
 # ===================== CONFIGURATION =====================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # @BotFather se lo
-MONGO_URI = "mongodb://localhost:27017"
+BOT_TOKEN = "8975874713:AAH7glz2UT81M_3rcLaayKcOC5YI8Xx-pz8"  # @BotFather se lo
+MONGO_URI = "mongodb+srv://taiyabalim8:ZixPlaysBot2026@cluster0.kmqdqwj.mongodb.net/?appName=Cluster0&compressors=zlib"
 DB_NAME = "tatkal_auto_bot_ist"
-ADMIN_IDS = [123456789]  # Apna Telegram ID
+ADMIN_IDS = [6325764594]  # Apna Telegram ID
 
 # UPI Payment Config
-UPI_VPA = "yourazorpay@upi"
+UPI_VPA = "blitzzxtaiyab@okaxis"
 PAYMENT_MERCHANT = "TatkalBot"
 
 # ===================== MongoDB Collections =====================
